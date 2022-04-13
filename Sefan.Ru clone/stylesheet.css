@@ -1,0 +1,85 @@
+.header  {
+    background-color: #4BA416;
+    background-position: bottom;
+    font-weight: bold;
+    color: #fff;
+    padding: 4px 6px;
+    border: 1px outset #6aab50;
+    text-align: center;
+    text-shadow: 1px 1px 4px #111;
+}
+.pics{
+    background-color: #c7f2a3;
+    color: #070;
+    vertical-align: middle;
+    font-size: 0.95em;
+    padding: 4px;
+    margin: 0px 0px 6px 0px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+body {
+    margin: 0px auto;
+    color: #151515;
+    font-size: 1em;
+    font-family: -apple-system,Roboto,"Open Sans","Segoe UI",UILanguageFont,sans-serif,Arial,Tahoma;
+    font-weight: normal;
+    max-width: 768px;
+}
+.main-nav ul{
+    list-style-type: none;
+}
+.main-nav li a{
+    text-decoration: none;
+}
+.main-nav a:hover{
+    text-decoration: underline;
+}
+.download{
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(40, 182, 63);
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+footer .download{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em;
+    border: 1px outset #279A27;
+}
+@media screen and (max-width: 850px){
+    .header h1{
+        font-size: 25px;
+    }
+    .main-nav ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 460px){
+    .header h1{
+        font-size: 20px;
+    }
+    .main-nav ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 360px){
+    .header h1{
+        font-size: 15px;
+    }
+    .main-nav {
+        text-align: center;
+    }
+    footer p{
+        font-size: 11px;
+    }
+    footer .download{
+        font-size: 13px;
+}
